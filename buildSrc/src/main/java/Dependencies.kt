@@ -3,13 +3,21 @@ object Versions {
     const val androidCompileSdk = 31
     const val androidTargetSdk = androidCompileSdk
 
-    const val kotlin = "1.5.31"
+    const val kotlin = "1.7.20"
 
-    const val kotlinCoroutines = "1.5.2-native-mt"
-    const val koin = "3.1.2"
-    const val ktor = "1.6.4"
+    const val kotlinCoroutines = "1.6.3-native-mt"
+    const val koin = "3.2.2"
+    const val ktor = "1.6.8"
+//    const val kotlinxSerialization = "1.4.1"
+
+//    const val kotlinCoroutines = "1.5.2-native-mt"
+//    const val koin = "3.1.2"
+//    const val ktor = "1.6.4"
     const val kotlinxSerialization = "1.2.2"
     const val kotlinxHtmlJs = "0.7.3"
+
+//    const val compose = "1.2.0"
+//    const val wearCompose = "1.1.0-beta01"
 
     const val compose = "1.0.5"
     const val wearCompose = "1.0.0-alpha10"
@@ -44,7 +52,9 @@ object Versions {
 
     const val gradleVersionsPlugin = "0.39.0"
 
-    const val kmpNativeCoroutines = "0.8.0"
+//    const val kmpNativeCoroutines = "0.12.6"
+    const val kmpNativeCoroutines = "0.12.6-kotlin-1.7.20-RC"
+//    const val kmpNativeCoroutines = "0.8.0"
 }
 
 object Deps {

@@ -8,8 +8,9 @@ pluginManagement {
 
 rootProject.name = "PeopleInSpace"
 
-include(":app", ":common", ":compose-desktop")
-include(":web")
-include(":compose-web")
-include(":backend")
-include(":wearApp")
+include(":common")
+//include(":app", ":common", ":compose-desktop")
+//include(":web")
+//include(":compose-web")
+//include(":backend")
+//include(":wearApp")

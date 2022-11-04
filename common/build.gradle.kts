@@ -49,14 +49,14 @@ kotlin {
         iosX64("iOS")
     }
 
-    val isWatchOSDevice = sdkName.orEmpty().startsWith("watchos")
-    if (isWatchOSDevice) {
-        watchosArm64("watch")
-    } else {
-        watchosX64("watch")
-    }
+//    val isWatchOSDevice = sdkName.orEmpty().startsWith("watchos")
+//    if (isWatchOSDevice) {
+//        watchosArm64("watch")
+//    } else {
+//        watchosX64("watch")
+//    }
 
-    macosX64("macOS")
+//    macosX64("macOS")
     android()
     jvm()
 
@@ -130,15 +130,15 @@ kotlin {
         sourceSets["iOSTest"].dependencies {
         }
 
-        sourceSets["watchMain"].dependencies {
-            implementation(Deps.Ktor.clientIos)
-            implementation(Deps.SqlDelight.nativeDriver)
-        }
-
-        sourceSets["macOSMain"].dependencies {
-            implementation(Deps.Ktor.clientIos)
-            implementation(Deps.SqlDelight.nativeDriverMacos)
-        }
+//        sourceSets["watchMain"].dependencies {
+//            implementation(Deps.Ktor.clientIos)
+//            implementation(Deps.SqlDelight.nativeDriver)
+//        }
+//
+//        sourceSets["macOSMain"].dependencies {
+//            implementation(Deps.Ktor.clientIos)
+//            implementation(Deps.SqlDelight.nativeDriverMacos)
+//        }
 
         sourceSets["jsMain"].dependencies {
             implementation(Deps.Ktor.clientJs)
